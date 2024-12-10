@@ -1,16 +1,16 @@
 # Fruit Classification Web App
 
-A Flask-based web application for classifying fruits as fresh or rotten using a pre-trained PyTorch model.
+A Flask-based web application for classifying fruits as fresh or rotten using CNN model.
 
 ## Features
 1. Upload an image of a fruit through a simple web interface.
 2. Classify fruits into the following categories:
-    a. Fresh Apples
-    b. Fresh Bananas
-    c. Fresh Oranges
-    d. Rotten Apples
-    e. Rotten Bananas
-    f. Rotten Oranges
+   - Fresh Apples
+   - Fresh Banana
+   - Fresh Oranges
+   - Rotten Apples
+   - Rotten Banana
+   - Rotten Oranges
 3. Powered by a ResNet18 model fine-tuned with PyTorch.
 
 ## Install Dependencies
