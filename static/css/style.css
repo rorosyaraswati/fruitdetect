@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/static/css/background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Membuat gambar menyesuaikan ukuran layar */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Warna hijau dengan transparansi */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Jarak antara logo dan teks */
+}
+
+.logo {
+    width: 40px; /* Ukuran logo */
+    height: 40px;
+    border-radius: 50%; /* Bentuk lingkaran */
+}
+
+header h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    height: 30px;
+    background-color: rgba(76, 175, 80, 0.8);
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang transparan untuk konten */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+/* Heading Style */
+h1 {
+    color: #2E7D32;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Inline Layout */
+.form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antara elemen */
+}
+
+/* Input File */
+.input-file {
+    font-size: 16px;
+    border: 2px dashed #4CAF50;
+    padding: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.btn {
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #66BB6A, #388E3C);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Uploaded Image */
+.uploaded-image {
+    width: 60%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Result Styling */
+.result p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.result span {
+    font-weight: bold;
+    color: #2E7D32;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.fruit-image {
+    width: 60%; /* Ukuran gambar relatif terhadap kontainer */
+    max-width: 250px; /* Maksimal lebar gambar */
+    border-radius: 10px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    margin-bottom: 20px; /* Spasi di bawah gambar */
+}
