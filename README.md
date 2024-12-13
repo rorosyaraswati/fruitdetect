@@ -2,7 +2,9 @@
 
 A Flask-based web application for classifying fruits as fresh or rotten using CNN model.
 
-The datasets from this link: https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data
+##### Datasets Download [Fresh-Rotten]([https://developer.android.com/studio](https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data))
+
+## Preview
 
 ## Features
 1. Upload an image of a fruit through a simple web interface.
